@@ -1,0 +1,53 @@
+FabuCAD
+
+A minimalist CAD program that allows the user to create and view models using Lua
+(c) 2011 William Adams ( william / .at. / nanotechstyles.com )
+
+Summary
+-------
+
+For some, being able to create models directly from code is a good thing.
+My goal in particular is to be able to send a design file to a rendering device
+directly.  There it will be turned into the appropriate code for the device
+for rendering.
+
+In some cases, the final output might be .gcode, in others perhaps something else.
+That means the .fab design files serve as a transport mechanism, rather than the
+more traditional .stl files that are being used for 3D printing for example.
+
+This gives much more flexibility in terms of what can be represented, and gives
+the machine a chance to best optimize how it wants to render things.
+
+Features
+--------
+Import/Export popular file formats
+Native objects
+	Cone
+	Sphere
+	Superformula
+	Ellipsoid
+	Polyhedron
+	Tetrahedron
+	Cube
+	Cubic Surfaces
+
+Transforms
+	Translate
+	Rotate
+	Scale
+	
+Modeling Colors
+	Crayola
+	HTML Standard
+
+Environment Manipulation
+	Editor Preferences
+	Color Schemes
+	
+Rendering Management
+	Lighting Control
+	Animation
+	
+Scripting
+	Lua Native
+	
